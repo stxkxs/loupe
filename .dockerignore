@@ -1,0 +1,11 @@
+node_modules
+dist
+coverage
+tmp-capture
+.git
+.github
+*.local
+.env
+.env.*
+.DS_Store
+*.tsbuildinfo

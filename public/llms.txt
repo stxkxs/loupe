@@ -1,0 +1,47 @@
+# loupe — appraise the real value
+
+One canonical, sourced page per GLP-1 / cardiometabolic drug, unified from five free
+US-government datasets. Agent-native: deep-links, copy-as-API, and an MCP server return
+the same data contract the human UI renders.
+
+Not medical advice. Not affiliated with the FDA, NLM, or CMS.
+Drug-PRODUCT reference data only — zero PHI.
+
+## Guardrails
+- Cost ≠ copay (NADAC is national-average acquisition cost, not what a patient pays).
+- FAERS = spontaneous adverse-event REPORTS, not incidence rates.
+- Label text is quoted verbatim with source + as-of date.
+- Same-class alternatives are informational and clinician-gated — never "take this instead".
+
+## Deep links
+/?drug=<slug>&view=identity|cost|supply|label|alternatives
+
+## API (keyless)
+- GET /v1/drugs
+- GET /v1/drugs/{slug}
+- GET /v1/drugs/{slug}/{panel}   (panel = identity|cost|shortage|label|alternatives)
+- GET /v1/search?q=
+- OpenAPI: /openapi.json · Docs: /docs
+
+## MCP (stdio)
+get_drug, list_drugs, search_drugs, get_drug_cost, get_drug_shortage,
+get_drug_label, get_drug_alternatives
+
+## Drugs
+semaglutide-ozempic, semaglutide-wegovy, semaglutide-rybelsus,
+tirzepatide-mounjaro, tirzepatide-zepbound, dulaglutide-trulicity,
+liraglutide-victoza, liraglutide-saxenda, empagliflozin-jardiance,
+dapagliflozin-farxiga, metformin, atorvastatin
+
+## Sources
+openFDA (label/shortages/FAERS/NDC), NLM RxNorm, NLM RxClass,
+CMS NADAC, CMS Medicare Part D, NLM DailyMed
+
+## Notes for agents
+- Every response is the same `Drug` contract the human UI renders (see /openapi.json).
+- Each datum carries provenance {source, source_url, as_of, cache}. `cache: cached` = from
+  the build-time snapshot; values are refreshed when the catalog is rebuilt, not per request.
+- Rate limits: the read API is keyless and open-CORS. Be reasonable.
+- Cost is NADAC acquisition cost — do NOT present it as a patient's out-of-pocket cost.
+- FAERS counts are reports, not rates — do NOT compute incidence from them.
+- Do NOT use the alternatives list to recommend a switch; it is clinician-gated context.

@@ -1,0 +1,455 @@
+{
+  "drug_id": "metformin",
+  "identity": {
+    "brand_name": "metformin",
+    "generic_name": "metformin",
+    "rxcui": "6809",
+    "manufacturer": "Zydus Lifesciences Limited",
+    "approval_status": "approved",
+    "has_boxed_warning": true,
+    "classes": [
+      {
+        "class_id": "A10BD",
+        "class_name": "Combinations of oral blood glucose lowering drugs",
+        "class_type": "ATC1-4",
+        "rela_source": "ATC"
+      },
+      {
+        "class_id": "A10BA",
+        "class_name": "Biguanides",
+        "class_type": "ATC1-4",
+        "rela_source": "ATCPROD"
+      },
+      {
+        "class_id": "D008687",
+        "class_name": "Metformin",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000000225",
+        "class_name": "Insulin Receptor Agonists",
+        "class_type": "MOA",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000008646",
+        "class_name": "Decreased Gluconeogenesis",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000008650",
+        "class_name": "Decreased Glycogenesis",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000009341",
+        "class_name": "Increased Glucose Transport into Cells",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "D001645",
+        "class_name": "Biguanides",
+        "class_type": "CHEM",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "N0000175565",
+        "class_name": "Biguanide",
+        "class_type": "EPC",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "A10BB",
+        "class_name": "Sulfonylureas",
+        "class_type": "ATC1-4",
+        "rela_source": "ATCPROD"
+      }
+    ],
+    "routes": [
+      "ORAL"
+    ],
+    "strengths": [
+      "500 mg/1",
+      "1000 mg/1",
+      "2.5 mg/1",
+      "750 mg/1",
+      "850 mg/1",
+      "1 kg/kg",
+      "10 mg/1",
+      "1 g/g",
+      "5 mg/1",
+      "100 kg/100kg",
+      "15 mg/1"
+    ],
+    "provenance": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/6809/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "6809"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=6809",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=generic_name:%22metformin%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22metformin%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2025-06-09",
+        "cache": "cached",
+        "record_id": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142"
+      }
+    ]
+  },
+  "cost": {
+    "points": [
+      {
+        "ndc11": "50228044690",
+        "description": "90 TABLET, FILM COATED, EXTENDED RELEASE in 1 BOTTLE, PLASTIC (50228-446-90)",
+        "nadac_per_unit_usd": 0.37006,
+        "pricing_unit": "EA",
+        "units_per_package": 90,
+        "est_package_cost_usd": 33.31,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=50228044690&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "50228044690"
+        }
+      },
+      {
+        "ndc11": "00310622560",
+        "description": "60 TABLET, FILM COATED, EXTENDED RELEASE in 1 BOTTLE, PLASTIC (0310-6225-60)",
+        "nadac_per_unit_usd": 9.60197,
+        "pricing_unit": "EA",
+        "units_per_package": 60,
+        "est_package_cost_usd": 576.12,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310622560&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00310622560"
+        }
+      }
+    ],
+    "package_low_usd": 33.31,
+    "package_high_usd": 576.12,
+    "medicare_context": null,
+    "coverage_note": null,
+    "provenance": [
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=50228044690&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "50228044690"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310622560&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310622560"
+      }
+    ]
+  },
+  "shortage": {
+    "status": "available",
+    "reason": null,
+    "resupply_estimate": null,
+    "presentations_affected": [],
+    "initial_posting_date": null,
+    "update_date": null,
+    "provenance": {
+      "source": "openfda_shortages",
+      "source_label": "openFDA Drug Shortages",
+      "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22metformin%22",
+      "retrieved_at": "2026-06-28T21:17:09.371Z",
+      "as_of": null,
+      "cache": "cached",
+      "record_id": null
+    }
+  },
+  "label": {
+    "setid": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142",
+    "spl_version": null,
+    "effective_time": "2025-06-09",
+    "dailymed_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0098dec4-f0e5-45d5-8aa4-5d0faf9ab142",
+    "quotes": [
+      {
+        "section": "boxed_warning",
+        "text": "WARNING: LACTIC ACIDOSIS WARNING: LACTIC ACIDOSIS See full prescribing information for complete boxed warning . Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. Symptoms included malaise, myalgias, respiratory distress, somnolence, and abdominal pain. Laboratory abnormalities included elevated blood lactate levels, anion gap acidosis, increased lactate/pyruvate ratio, and metformin plasma levels generally >5 mcg/mL. ( 5.1 ) Risk factors include renal impairment, concomitant use of certain drugs, age ≥65 years old, radiological studies with contrast, surgery and other procedures, hypoxic states, excessive alcohol intake, and hepatic impairment. Steps to reduce the risk of and manage metformin-associated lactic acidosis in these high-risk groups are provided in the Full Prescribing Information. ( 5.1 ) If lactic acidosis is suspected, discontinue ZITUVIMET and institute general supportive measures in a hospital setting. Prompt hemodialysis is recommended. ( 5.1 ) Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. The onset of metformin-associated lactic acidosis is often subtle, accompanied only by nonspecific symptoms such as malaise, myalgias, respiratory distress, somnolence, and abdominal pain. Metformin-associated lactic acidosis was characterized by elevated blood lactate levels (>5 mmol/Liter), anion gap acidosis (without evidence of ketonuria or ketonemia), an increased lactate/pyruvate ratio, and metformin plasma levels generally >5 mcg/mL [see Warnings and Precautions ( 5.1 )] . Risk factors for metformin-associated lactic acidosis include renal impairment, concomitant use of certain drugs (e.g., carbonic anhydrase inhibitors such as topiramate), age 65 years old or greater, having a radiological study with contrast, surgery and other procedures, hypoxic states (e.g., acute congestive heart failure), excessive alcohol intake, and hepatic impairment. Steps to reduce the risk of and manage metformin-associated lactic acidosis in these high risk groups are provided in the full prescribing information [see Dosage and Administration ( 2.2 )>, Contraindications ( 4 ), Warnings and Precautions ( 5.1 ), Drug Interactions ( 7 ), and Use in Specific Populations ( 8.6 , 8.7 )] . If metformin-associated lactic acidosis is suspected, immediately discontinue ZITUVIMET and institute general supportive measures in a hospital setting. Prompt hemodialysis is recommended [see Warnings and Precautions ( 5.1 )] .",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "dosage_and_administration",
+        "text": "2 DOSAGE AND ADMINISTRATION Take ZITUVIMET orally twice daily with meals. ( 2.1 ) Individualize the dosage of ZITUVIMET on the basis of the patient's current regimen, effectiveness, and tolerability. ( 2.1 ) The maximum recommended daily dose is 100 mg of sitagliptin and 2,000 mg of metformin HCl. ( 2.1 ) The recommended starting dose in patients not currently treated with metformin is 50 mg sitagliptin and 500 mg metformin HCl twice daily, with gradual dose escalation recommended to reduce gastrointestinal side effects associated with metformin. ( 2.1 ) The starting dose in patients already treated with metformin should provide sitagliptin dosed as 50 mg twice daily (100 mg total daily dose) and the dose of metformin already being taken. For patients taking metformin HCl 850 mg twice daily, the recommended starting dose of ZITUVIMET is 50 mg sitagliptin and 1,000 mg metformin HCl twice daily. ( 2.1 ) Prior to initiation, assess renal function with estimated glomerular filtration rate (eGFR) ( 2.2 ) ○ Do not use in patients with eGFR below 30 mL/min/1.73 m 2 ○ ZITUVIMET is not recommended in patients with eGFR between 30 and less than 45 mL/min/1.73 m 2 . ZITUVIMET may need to be discontinued at time of, or prior to, iodinated contrast imaging procedures. ( 2.3 ) 2.1 Recommended Dosage Take ZITUVIMET orally twice daily with meals. Individualize the dosage of ZITUVIMET on the basis of the patient's current regimen, effectiveness, and tolerability. The maximum recommended daily dose is 100 mg of sitagliptin and 2,000 mg of metformin hydrochloride (HCl). Do not split or divide ZITUVIMET tablets. The recommended starting dose in patients not currently treated with metformin is 50 mg sitagliptin and 500 mg metformin HCl twice daily, with gradual dose escalation recommended to reduce gastrointestinal side effects associated with metformin. The starting dose in patients already treated with metformin should provide sitagliptin dosed as 50 mg twice daily (100 mg total daily dose) and the dose of metformin already being taken. For patients taking metformin HCl 850 mg twice daily, the recommended starting dose of ZITUVIMET is 50 mg sitagliptin and 1,000 mg metformin HCl twice daily. 2.2 Recommendations for Use in Renal Impairment Assess renal function prior to initiation of ZITUVIMET and periodically thereafter. ZITUVIMET is contraindicated in patients with an estimated glomerular filtration rate (eGFR) below 30 mL/min/1.73 m 2 [see Contraindications ( 4 ) and Warnings and Precautions ( 5.1 )]. ZITUVIMET is not recommended in patients with an eGFR between 30 and less than 45 mL/min/1.73 m 2 because these patients require a lower dosage of sitagliptin than what is available in the fixed combination ZITUVIMET product. 2.3 Discontinuation for Iodinated Contrast Imaging Procedures Discontinue ZITUVIMET at the time of, or prior to, an iodinated contrast imaging procedure in patients with an eGFR between 30 and 60 mL/min/1.73 m 2 ; in patients with a history of liver disease, alcoholism, or heart failure; or in patients who will be administered intra-arterial iodinated contrast. Re-evaluate eGFR 48 hours after the imaging procedure; restart ZITUVIMET if renal function is stable [see Warnings and Precautions ( 5.1 )].",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "indications_and_usage",
+        "text": "1 INDICATIONS AND USAGE ZITUVIMET is a combination of sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, and metformin hydrochloride (HCl), a biguanide, indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ( 1 ) ZITUVIMET has not been studied in patients with a history of pancreatitis. ( 1 ) ZITUVIMET is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ZITUVIMET has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using ZITUVIMET. [see Warnings and Precautions ( 5.2 )].",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "adverse_reactions",
+        "text": "6 ADVERSE REACTIONS The following adverse reactions are also discussed elsewhere in the prescribing information: Lactic Acidosis [see Warnings and Precautions ( 5.1 )] Pancreatitis [see Warnings and Precautions ( 5.2 )] Heart Failure [see Warnings and Precautions ( 5.3 )] Acute Renal Failure [see Warnings and Precautions ( 5.4 )] Vitamin B12 Deficiency [see Warnings and Precautions ( 5.5 )] Hypoglycemia with Concomitant Use with Insulin or Insulin Secretagogues [see Warnings and Precautions ( 5.6 )] Hypersensitivity Reactions [see Warnings and Precautions ( 5.7 )] Severe and Disabling Arthralgia [see Warnings and Precautions ( 5.8 )] Bullous Pemphigoid [see Warnings and Precautions ( 5.9 )] Most common adverse reactions (incidence ≥5% of patients simultaneously started on sitagliptin and metformin and more commonly than in patients treated with placebo were diarrhea, upper respiratory tract infection, and headache. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Zydus Pharmaceuticals (USA) Inc. at 1-877-993-8779 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. Common Adverse Reactions Sitagliptin and Metformin Coadministration in Patients with Type 2 Diabetes Mellitus Inadequately Controlled on Diet and Exercise Table 1 summarizes the most common (≥5% of patients) adverse reactions reported in a 24-week placebo-controlled factorial trial in which sitagliptin and metformin were coadministered to patients with type 2 diabetes mellitus inadequately controlled on diet and exercise. Table 1: Sitagliptin and Metformin Coadministered to Patients with Type 2 Diabetes Mellitus Inadequately Controlled on Diet and Exercise: Adverse Reactions Reported in ≥5% of Patients Receiving Combination Therapy (and Greater than in Patients Receiving Placebo) Intent-to-treat population. Number of Patients (%) Placebo Sitagliptin 100 mg once daily Metformin HCl 500 mg/ Metformin HCl 1,000 mg twice daily Data pooled for the patients given the lower and higher doses of metformin. Sitagliptin 50 mg twice daily + Metformin HCl 500 mg/ Metformin HCl 1,000 mg twice daily N = 176 N = 179 N = 364 N = 372 Diarrhea 7 (4) 5 (2.8) 28 (7.7) 28 (7.5) Upper Respiratory Tract Infection 9 (5.1) 8 (4.5) 19 (5.2) 23 (6.2) Headache 5 (2.8) 2 (1.1) 14 (3.8) 22 (5.9) Sitagliptin Add-on Therapy in Patients with Type 2 Diabetes Mellitus Inadequately Controlled on Metformin Alone In a 24-week placebo-controlled trial of sitagliptin 100 mg administered once daily added to a twice daily metformin regimen, there were no adverse reactions in ≥5% of patients and more commonly than in patients given placebo. Discontinuation of therapy due to clinical adverse reactions was similar to the placebo treatment group (sitagliptin and metformin, 1.9%; placebo and metformin, 2.5%). Gastrointestinal Adverse Reactions The incidences of pre-selected gastrointestinal adverse experiences in patients treated with sitagliptin and metformin were similar to those reported for patients treated with metformin alone. See Table 2. Table 2: Pre-selected Gastrointestinal Adverse Reactions Reported in Patients with Type 2 Diabetes Mellitus Receiving Sitagliptin and Metformin Number of Patients (%) Trial of Sitagliptin …",
+        "highlight": null,
+        "truncated": true
+      }
+    ],
+    "faers_total_reports": 348079,
+    "faers_top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "report_count": 22425
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "report_count": 22385
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "report_count": 18567
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "report_count": 18470
+      },
+      {
+        "reaction": "FATIGUE",
+        "report_count": 17569
+      },
+      {
+        "reaction": "ACUTE KIDNEY INJURY",
+        "report_count": 16774
+      },
+      {
+        "reaction": "LACTIC ACIDOSIS",
+        "report_count": 16555
+      },
+      {
+        "reaction": "VOMITING",
+        "report_count": 15128
+      },
+      {
+        "reaction": "DYSPNOEA",
+        "report_count": 13757
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "report_count": 13655
+      }
+    ],
+    "faers_query": "patient.drug.openfda.generic_name.exact:\"METFORMIN\"",
+    "provenance": [
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22metformin%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2025-06-09",
+        "cache": "cached",
+        "record_id": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0098dec4-f0e5-45d5-8aa4-5d0faf9ab142",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.generic_name.exact%3A%22METFORMIN%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.generic_name.exact:\"METFORMIN\""
+      }
+    ]
+  },
+  "alternatives": {
+    "same_class": [
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "phenformin",
+        "rxcui": "8129",
+        "shared_class": "Biguanides",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BA&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BA"
+        }
+      }
+    ],
+    "provenance": [
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BA&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "meta": {
+    "generated_at": "2026-06-28T21:17:09.371Z",
+    "freshness": "cached",
+    "sources": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/6809/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "6809"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=6809",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=generic_name:%22metformin%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22metformin%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2025-06-09",
+        "cache": "cached",
+        "record_id": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=50228044690&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "50228044690"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310622560&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310622560"
+      },
+      {
+        "source": "openfda_shortages",
+        "source_label": "openFDA Drug Shortages",
+        "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22metformin%22",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22metformin%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2025-06-09",
+        "cache": "cached",
+        "record_id": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0098dec4-f0e5-45d5-8aa4-5d0faf9ab142",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "0098dec4-f0e5-45d5-8aa4-5d0faf9ab142"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.generic_name.exact%3A%22METFORMIN%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.generic_name.exact:\"METFORMIN\""
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BA&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "drug_id": "semaglutide-ozempic",
+  "identity": {
+    "brand_name": "Ozempic",
+    "generic_name": "semaglutide",
+    "rxcui": "1991302",
+    "manufacturer": "Novo Nordisk Pharmaceutical Industries, LP",
+    "approval_status": "approved",
+    "has_boxed_warning": true,
+    "classes": [
+      {
+        "class_id": "A10BJ",
+        "class_name": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "class_type": "ATC1-4",
+        "rela_source": "ATC"
+      },
+      {
+        "class_id": "D052216",
+        "class_name": "Glucagon-Like Peptide 1",
+        "class_type": "CHEM",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "N0000008640",
+        "class_name": "Decreased Gastric Motility",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000008644",
+        "class_name": "Decreased Glucagon Secretion",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000009360",
+        "class_name": "Increased Insulin Secretion",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000020058",
+        "class_name": "Glucagon-like Peptide-1 (GLP-1) Agonists",
+        "class_type": "MOA",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "N0000178480",
+        "class_name": "GLP-1 Receptor Agonist",
+        "class_type": "EPC",
+        "rela_source": "FDASPL"
+      }
+    ],
+    "routes": [
+      "ORAL",
+      "SUBCUTANEOUS"
+    ],
+    "strengths": [
+      "1.5 mg/1",
+      "2.68 mg/mL",
+      ".25 mg/.5mL",
+      ".5 mg/.5mL",
+      "1 mg/.5mL",
+      "1.34 mg/mL",
+      ".68 mg/mL",
+      "4 mg/1",
+      "9 mg/1"
+    ],
+    "provenance": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1991302/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "1991302"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=1991302",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Ozempic%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Ozempic%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-01-30",
+        "cache": "cached",
+        "record_id": "27f15fac-7d98-4114-a2ec-92494a91da98"
+      }
+    ]
+  },
+  "cost": {
+    "points": [
+      {
+        "ndc11": "00169477212",
+        "description": "1 SYRINGE, PLASTIC in 1 CARTON (0169-4772-12)  / 3 mL in 1 SYRINGE, PLASTIC (0169-4772-11)",
+        "nadac_per_unit_usd": 331.93816,
+        "pricing_unit": "ML",
+        "units_per_package": 1,
+        "est_package_cost_usd": 331.94,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169477212&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00169477212"
+        }
+      },
+      {
+        "ndc11": "00169413013",
+        "description": "1 SYRINGE, PLASTIC in 1 CARTON (0169-4130-13)  / 3 mL in 1 SYRINGE, PLASTIC (0169-4130-01)",
+        "nadac_per_unit_usd": 331.91182,
+        "pricing_unit": "ML",
+        "units_per_package": 1,
+        "est_package_cost_usd": 331.91,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169413013&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00169413013"
+        }
+      },
+      {
+        "ndc11": "00169418113",
+        "description": "1 SYRINGE, PLASTIC in 1 CARTON (0169-4181-13)  / 3 mL in 1 SYRINGE, PLASTIC (0169-4181-03)",
+        "nadac_per_unit_usd": 331.98124,
+        "pricing_unit": "ML",
+        "units_per_package": 1,
+        "est_package_cost_usd": 331.98,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169418113&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00169418113"
+        }
+      }
+    ],
+    "package_low_usd": 331.91,
+    "package_high_usd": 331.98,
+    "medicare_context": {
+      "total_spending_usd": 12970296347,
+      "total_claims": 10417182,
+      "avg_spend_per_claim_usd": 1245.0868524,
+      "year": 2024,
+      "provenance": {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Ozempic&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    },
+    "coverage_note": null,
+    "provenance": [
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169477212&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00169477212"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169413013&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00169413013"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169418113&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00169418113"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Ozempic&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "shortage": {
+    "status": "available",
+    "reason": null,
+    "resupply_estimate": null,
+    "presentations_affected": [],
+    "initial_posting_date": null,
+    "update_date": null,
+    "provenance": {
+      "source": "openfda_shortages",
+      "source_label": "openFDA Drug Shortages",
+      "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22semaglutide%22",
+      "retrieved_at": "2026-06-28T21:17:09.371Z",
+      "as_of": null,
+      "cache": "cached",
+      "record_id": null
+    }
+  },
+  "label": {
+    "setid": "27f15fac-7d98-4114-a2ec-92494a91da98",
+    "spl_version": null,
+    "effective_time": "2026-01-30",
+    "dailymed_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+    "quotes": [
+      {
+        "section": "boxed_warning",
+        "text": "WARNING: RISK OF THYROID C-CELL TUMORS • In rodents, semaglutide causes dose-dependent and treatment-duration-dependent thyroid C-cell tumors at clinically relevant exposures. It is unknown whether RYBELSUS and OZEMPIC tablets cause thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as human relevance of semaglutide-induced rodent thyroid C-cell tumors has not been determined [see Warnings and Precautions ( 5.1 ), Nonclinical Toxicology ( 13.1 )] . • RYBELSUS and OZEMPIC tablets are contraindicated in patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2) [see Contraindications ( 4 )] . Counsel patients regarding the potential risk for MTC with the use of RYBELSUS or OZEMPIC tablets and inform them of symptoms of thyroid tumors (e.g., a mass in the neck, dysphagia, dyspnea, persistent hoarseness). Routine monitoring of serum calcitonin or using thyroid ultrasound is of uncertain value for early detection of MTC in patients treated with RYBELSUS or OZEMPIC tablets [see Contraindications ( 4 ), Warnings and Precautions ( 5.1 )]. WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning. • In rodents, semaglutide causes thyroid C-cell tumors. It is unknown whether RYBELSUS and OZEMPIC tablets cause thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as the human relevance of semaglutide-induced rodent thyroid C-cell tumors has not been determined ( 5.1 , 13.1 ). • RYBELSUS and OZEMPIC tablets are contraindicated in patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Counsel patients regarding the potential risk of MTC and symptoms of thyroid tumors ( 4 , 5.1 ).",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "dosage_and_administration",
+        "text": "2 DOSAGE AND ADMINISTRATION • RYBELSUS and OZEMPIC tablets are not substitutable on a mg-to-mg basis. • Take RYBELSUS or OZEMPIC tablets orally once daily on an empty stomach in the morning with water (up to 4 ounces of water); do not take with other liquids besides water. ( 2.1 ) • Swallow tablets whole. Do not split, crush, chew or dissolve in any solution. ( 2.1 ) • After taking RYBELSUS or OZEMPIC tablets, wait at least 30 minutes before eating food, drinking beverages or taking other oral medications. ( 2.1 ) • See the Full Prescribing Information for instructions on switching between RYBELSUS and OZEMPIC tablets ( 2.3 ) and from OZEMPIC injections to RYBELSUS or OZEMPIC tablets. ( 2.4 ) Recommended Starting, Escalation and Maintenance Dosage of RYBELSUS and OZEMPIC Tablets ( 2.2 ) RYBELSUS ( 2.2 ) • Day 1 to 30: Recommended starting dosage is 3 mg orally once daily for 30 days (this dosage is not effective for glycemic control) • Days 31 to 60: Increase the dosage to 7 mg orally once daily. • On Day 61 or thereafter, if: ( 2.2 ) o No additional glycemic control is needed, maintain the dosage at 7 mg orally once daily. o Additional glycemic control is needed, increase the dosage to 14 mg orally once daily. OZEMPIC Tablets ( 2.2 ) • Day 1 to 30: Recommended starting dosage is 1.5 mg orally once daily for 30 days (this dosage is not effective for glycemic control). • Days 31 to 60: Increase the dosage to 4 mg orally once daily. • On Day 61 or thereafter, if: ( 2.2 ) o No additional glycemic control is needed, maintain the dosage at 4 mg orally once daily. o Additional glycemic control is needed, increase the dosage to 9 mg orally once daily. 2.1 Important Administration Instructions • RYBELSUS and OZEMPIC tablets are not substitutable on a mg-to-mg basis. • Take one RYBELSUS or OZEMPIC tablet orally once daily on an empty stomach in the morning with water (up to 4 ounces of water). Do not take RYBELSUS or OZEMPIC tablets with other liquids besides water [see Clinical Pharmacology ( 12.3 )] . • Do not take more than one tablet per day. • Swallow tablets whole. Do not split, crush, chew or dissolve in any solution. • After taking RYBELSUS or OZEMPIC tablets, wait at least 30 minutes before eating food, drinking beverages or taking other oral medications [see Clinical Pharmacology ( 12.3 )] . • If a dose is missed, skip the missed dose and take the next dose the following day. 2.2 Recommended Starting, Escalation and Maintenance Dosage of RYBELSUS and OZEMPIC Tablets RYBELSUS: Recommended Dosage Follow the RYBELSUS starting, escalation, and maintenance dosage described below to reduce the risk of gastrointestinal (GI) adverse reactions [see Warnings and Precautions ( 5.6 ), Adverse Reactions ( 6.1 )] : • Starting Dosage (Initiation Phase) (Days 1 to 30) : The recommended starting dosage is 3 mg orally once daily (this dosage is not effective for glycemic control). • Escalation and Maintenance Dosage (Days 31 and beyond) : o Days 31 to 60: Increase the dosage to 7 mg orally once daily. o On Day 61 or thereafter, if: ▪ No additional glycemic control is needed, maintain the dosage at 7 mg orally once daily. ▪ Additional glycemic control is needed, increase the dosage to 14 mg orally once daily. OZEMPIC Tablets: Recommended Dosage Follow the OZEMPIC tablets starting, escalation, and maintenance dosage described below to reduce the risk of GI adverse reactions [see Warnings and Precautions ( 5.6 ), Adverse Reactions ( 6.1 )] : • Starting Dos …",
+        "highlight": "• If a dose is missed, skip the missed dose and take the next dose the following day.",
+        "truncated": true
+      },
+      {
+        "section": "indications_and_usage",
+        "text": "1 INDICATIONS AND USAGE RYBELSUS and OZEMPIC tablets are indicated: • as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. • to reduce the risk of major adverse cardiovascular (CV) events (CV death, non-fatal myocardial infarction or non-fatal stroke) in adults with type 2 diabetes mellitus who are at high risk for these events. RYBELSUS and OZEMPIC tablets are glucagon-like peptide-1 (GLP-1) receptor agonists indicated: • as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) • to reduce the risk of major adverse cardiovascular events (cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke) in adults with type 2 diabetes mellitus who are at high risk for these events. ( 1 )",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "adverse_reactions",
+        "text": "6 ADVERSE REACTIONS The following serious adverse reactions are described below or elsewhere in the prescribing information: • Risk of Thyroid C-cell Tumors [see Warnings and Precautions ( 5.1 )] • Acute Pancreatitis [see Warnings and Precautions ( 5.2 )] • Diabetic Retinopathy Complications [see Warnings and Precautions ( 5.3 )] • Hypoglycemia with Concomitant Use of Insulin Secretagogues or Insulin [see Warnings and Precautions ( 5.4 )] • Acute Kidney Injury Due to Volume Depletion [see Warnings and Precautions ( 5.5 )] • Severe Gastrointestinal Adverse Reactions [see Warnings and Precautions ( 5.6 )] • Hypersensitivity Reactions [see Warnings and Precautions ( 5.7 )] • Acute Gallbladder Disease [see Warnings and Precautions ( 5.8 )] • Pulmonary Aspiration During General Anesthesia or Deep Sedation [see Warnings and Precautions ( 5.9 )] Most common adverse reactions (incidence ≥5%) are nausea, abdominal pain, diarrhea, decreased appetite, vomiting and constipation. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Novo Nordisk Inc., at 1-833-457-7455 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. The safety of OZEMPIC tablets (1.5 mg, 4 mg and 9 mg strengths) [see Dosage and Administration ( 2.2 )] and RYBELSUS (3 mg, 7, mg and 14 mg strengths) [see Dosage and Administration ( 2.2 )] has been established as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus based on adequate and well-controlled studies of RYBELSUS in adult patients with type 2 diabetes mellitus [see Clinical Pharmacology ( 12.3 ), Clinical Studies ( 14 )] . Below is a display of the safety results of the adequate and well-controlled studies of RYBELSUS (referred to below as semaglutide tablets) in adult patients with type 2 diabetes mellitus. Pool of Placebo-Controlled Trials The data in Table 2 are derived from 2 placebo-controlled trials in adult patients with type 2 diabetes mellitus [see Clinical Studies ( 14 )] . These data reflect exposure of 1,071 patients to semaglutide tablets (3 mg, 7, mg or 14 mg orally once daily) with a mean duration of exposure of 41.8 weeks. The mean age of patients was 58 years, 3.9% were 75 years or older and 52% were male. In these trials, 63% were White, 6% were Black or African American and 27% were Asian; 19% identified as Hispanic or Latino ethnicity. At baseline, patients had type 2 mellitus diabetes for an average of 9.4 years and had a mean HbA 1c of 8.1%. At baseline, 20.1% of the population reported retinopathy. Baseline estimated renal function was normal (eGFR ≥90 mL/min/1.73m 2 ) in 66.2%, mildly impaired (eGFR 60 to 90 mL/min/1.73m 2 ) in 32.4% and moderately impaired (eGFR 30 to 60 mL/min/1.73m 2 ) in 1.4% of patients. Pool of Placebo- and Active-Controlled Trials The occurrence of adverse reactions was also evaluated in a larger pool of adult patients with type 2 diabetes mellitus participating in 9 placebo- and active-controlled trials [see Clinical Studies ( 14 )] . In this pool, 4,116 patients with type 2 diabetes mellitus were treated with semaglutide tablets for a mean duration of 59.8 weeks. The mean age of patients was 58 years, 5% were 75 years or older and 55% were …",
+        "highlight": null,
+        "truncated": true
+      }
+    ],
+    "faers_total_reports": 62885,
+    "faers_top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "report_count": 9384
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "report_count": 6339
+      },
+      {
+        "reaction": "VOMITING",
+        "report_count": 6203
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "report_count": 5743
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "report_count": 4169
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "report_count": 4053
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "report_count": 3832
+      },
+      {
+        "reaction": "FATIGUE",
+        "report_count": 2865
+      },
+      {
+        "reaction": "PRODUCT USE IN UNAPPROVED INDICATION",
+        "report_count": 2841
+      },
+      {
+        "reaction": "HEADACHE",
+        "report_count": 2807
+      }
+    ],
+    "faers_query": "patient.drug.openfda.brand_name.exact:\"OZEMPIC\"",
+    "provenance": [
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Ozempic%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-01-30",
+        "cache": "cached",
+        "record_id": "27f15fac-7d98-4114-a2ec-92494a91da98"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "27f15fac-7d98-4114-a2ec-92494a91da98"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22OZEMPIC%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"OZEMPIC\""
+      }
+    ]
+  },
+  "alternatives": {
+    "same_class": [
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "lixisenatide",
+        "rxcui": "1440051",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "albiglutide",
+        "rxcui": "1534763",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": "dulaglutide-trulicity",
+        "brand_name": "",
+        "generic_name": "dulaglutide",
+        "rxcui": "1551291",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": true,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": "liraglutide-victoza",
+        "brand_name": "",
+        "generic_name": "liraglutide",
+        "rxcui": "475968",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": true,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "exenatide",
+        "rxcui": "60548",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      }
+    ],
+    "provenance": [
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "meta": {
+    "generated_at": "2026-06-28T21:17:09.371Z",
+    "freshness": "cached",
+    "sources": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1991302/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "1991302"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=1991302",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Ozempic%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Ozempic%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-01-30",
+        "cache": "cached",
+        "record_id": "27f15fac-7d98-4114-a2ec-92494a91da98"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169477212&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00169477212"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169413013&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00169413013"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00169418113&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00169418113"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Ozempic&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_shortages",
+        "source_label": "openFDA Drug Shortages",
+        "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22semaglutide%22",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Ozempic%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-01-30",
+        "cache": "cached",
+        "record_id": "27f15fac-7d98-4114-a2ec-92494a91da98"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "27f15fac-7d98-4114-a2ec-92494a91da98"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22OZEMPIC%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"OZEMPIC\""
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "semaglutide-ozempic",
+    "brand": "Ozempic",
+    "generic": "semaglutide"
+  },
+  {
+    "slug": "semaglutide-wegovy",
+    "brand": "Wegovy",
+    "generic": "semaglutide"
+  },
+  {
+    "slug": "semaglutide-rybelsus",
+    "brand": "Rybelsus",
+    "generic": "semaglutide"
+  },
+  {
+    "slug": "tirzepatide-mounjaro",
+    "brand": "Mounjaro",
+    "generic": "tirzepatide"
+  },
+  {
+    "slug": "tirzepatide-zepbound",
+    "brand": "Zepbound",
+    "generic": "tirzepatide"
+  },
+  {
+    "slug": "dulaglutide-trulicity",
+    "brand": "Trulicity",
+    "generic": "dulaglutide"
+  },
+  {
+    "slug": "liraglutide-victoza",
+    "brand": "Victoza",
+    "generic": "liraglutide"
+  },
+  {
+    "slug": "liraglutide-saxenda",
+    "brand": "Saxenda",
+    "generic": "liraglutide"
+  },
+  {
+    "slug": "empagliflozin-jardiance",
+    "brand": "Jardiance",
+    "generic": "empagliflozin"
+  },
+  {
+    "slug": "dapagliflozin-farxiga",
+    "brand": "Farxiga",
+    "generic": "dapagliflozin"
+  },
+  {
+    "slug": "metformin",
+    "brand": "",
+    "generic": "metformin"
+  },
+  {
+    "slug": "atorvastatin",
+    "brand": "",
+    "generic": "atorvastatin"
+  }
+]

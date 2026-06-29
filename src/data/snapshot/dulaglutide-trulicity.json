@@ -1,0 +1,546 @@
+{
+  "drug_id": "dulaglutide-trulicity",
+  "identity": {
+    "brand_name": "Trulicity",
+    "generic_name": "dulaglutide",
+    "rxcui": "1551291",
+    "manufacturer": "A-S Medication Solutions",
+    "approval_status": "approved",
+    "has_boxed_warning": true,
+    "classes": [
+      {
+        "class_id": "A10BJ",
+        "class_name": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "class_type": "ATC1-4",
+        "rela_source": "ATC"
+      },
+      {
+        "class_id": "D004763",
+        "class_name": "Glucagon-Like Peptides",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "D007141",
+        "class_name": "Immunoglobulin Fc Fragments",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "D011993",
+        "class_name": "Recombinant Fusion Proteins",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "D052216",
+        "class_name": "Glucagon-Like Peptide 1",
+        "class_type": "CHEM",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "N0000008640",
+        "class_name": "Decreased Gastric Motility",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000008644",
+        "class_name": "Decreased Glucagon Secretion",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000020058",
+        "class_name": "Glucagon-like Peptide-1 (GLP-1) Agonists",
+        "class_type": "MOA",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000178480",
+        "class_name": "GLP-1 Receptor Agonist",
+        "class_type": "EPC",
+        "rela_source": "FDASPL"
+      }
+    ],
+    "routes": [
+      "SUBCUTANEOUS"
+    ],
+    "strengths": [
+      "3 mg/.5mL",
+      ".75 mg/.5mL",
+      "1.5 mg/.5mL",
+      "4.5 mg/.5mL"
+    ],
+    "provenance": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1551291/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "1551291"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=1551291",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Trulicity%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Trulicity%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-08-05",
+        "cache": "cached",
+        "record_id": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89"
+      }
+    ]
+  },
+  "cost": {
+    "points": [
+      {
+        "ndc11": "00002143380",
+        "description": "4 SYRINGE in 1 CARTON (0002-1433-80)  / .5 mL in 1 SYRINGE (0002-1433-01)",
+        "nadac_per_unit_usd": 487.69143,
+        "pricing_unit": "ML",
+        "units_per_package": 4,
+        "est_package_cost_usd": 1950.77,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002143380&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00002143380"
+        }
+      },
+      {
+        "ndc11": "00002318280",
+        "description": "4 SYRINGE in 1 CARTON (0002-3182-80)  / .5 mL in 1 SYRINGE (0002-3182-01)",
+        "nadac_per_unit_usd": 487.47886,
+        "pricing_unit": "ML",
+        "units_per_package": 4,
+        "est_package_cost_usd": 1949.92,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002318280&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00002318280"
+        }
+      }
+    ],
+    "package_low_usd": 1949.92,
+    "package_high_usd": 1950.77,
+    "medicare_context": {
+      "total_spending_usd": 5454134725.1,
+      "total_claims": 4305141,
+      "avg_spend_per_claim_usd": 1266.8887558,
+      "year": 2024,
+      "provenance": {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Trulicity&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    },
+    "coverage_note": null,
+    "provenance": [
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002143380&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002143380"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002318280&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002318280"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Trulicity&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "shortage": {
+    "status": "available",
+    "reason": null,
+    "resupply_estimate": null,
+    "presentations_affected": [],
+    "initial_posting_date": null,
+    "update_date": null,
+    "provenance": {
+      "source": "openfda_shortages",
+      "source_label": "openFDA Drug Shortages",
+      "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22dulaglutide%22",
+      "retrieved_at": "2026-06-28T21:17:09.371Z",
+      "as_of": null,
+      "cache": "cached",
+      "record_id": null
+    }
+  },
+  "label": {
+    "setid": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89",
+    "spl_version": null,
+    "effective_time": "2023-08-05",
+    "dailymed_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a4716d0-9c9c-4bc3-a8f1-6784599aae89",
+    "quotes": [
+      {
+        "section": "boxed_warning",
+        "text": "WARNING: RISK OF THYROID C-CELL TUMORS In male and female rats, dulaglutide causes a dose-related and treatment-duration-dependent increase in the incidence of thyroid C-cell tumors (adenomas and carcinomas) after lifetime exposure. It is unknown whether TRULICITY causes thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as human relevance of dulaglutide-induced rodent thyroid C-cell tumors has not been determined [see Warnings and Precautions ( 5.1 ), and Nonclinical Toxicology ( 13.1 )] . TRULICITY is contraindicated in patients with a personal or family history of MTC and in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Counsel patients regarding the potential risk of MTC with use of TRULICITY and inform them of symptoms of thyroid tumors (e.g., mass in the neck, dysphagia, dyspnea, persistent hoarseness). Routine monitoring of serum calcitonin or using thyroid ultrasound is of uncertain value for early detection of MTC in patients treated with TRULICITY [see Contraindications ( 4 ) and Warnings and Precautions ( 5.1 )] . WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning. Dulaglutide causes thyroid C-cell tumors in rats. It is unknown whether TRULICITY causes thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as the human relevance of dulaglutide-induced rodent thyroid C-cell tumors has not been determined ( 5.1 , 13.1 ). TRULICITY is contraindicated in patients with a personal or family history of MTC and in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Counsel patients regarding the potential risk of MTC and symptoms of thyroid tumors ( 4 , 5.1 ).",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "dosage_and_administration",
+        "text": "2 DOSAGE AND ADMINISTRATION Adult Dosage ( 2.1 ) Recommended starting dosage is 0.75 mg injected subcutaneously once weekly. Increase dosage to 1.5 mg once weekly for additional glycemic control. If additional glycemic control is needed, increase dosage in 1.5 mg increments after at least 4 weeks on the current dosage. Maximum recommended dosage is 4.5 mg injected subcutaneously once weekly. Pediatric Dosage ( 2.2 ) Recommended starting dosage is 0.75 mg injected subcutaneously once weekly. If additional glycemic control is needed, increase dosage to the maximum recommended dosage of 1.5 mg once weekly after at least 4 weeks on the 0.75 mg dosage. Recommendations Regarding Missed Dose ( 2.3 ) If a dose is missed, administer the missed dose as soon as possible if there are at least 3 days (72 hours) until the next scheduled dose. Important Administration Instructions ( 2.4 ) Administer once weekly at any time of day with or without food. Inject subcutaneously in the abdomen, thigh, or upper arm. 2.1 Adult Dosage The recommended starting dosage of TRULICITY is 0.75 mg injected subcutaneously once weekly. Increase the dosage to 1.5 mg once weekly for additional glycemic control. If additional glycemic control is needed, increase the dosage in 1.5 mg increments after at least 4 weeks on the current dosage. The maximum recommended dosage is 4.5 mg injected subcutaneously once weekly. 2.2 Pediatric Dosage The recommended starting dosage of TRULICITY is 0.75 mg injected subcutaneously once weekly. If additional glycemic control is needed, increase the dosage to the maximum recommended dosage of 1.5 mg once weekly after at least 4 weeks on the 0.75 mg dosage. 2.3 Recommendations Regarding Missed Dose If a dose is missed, instruct patients to administer the dose as soon as possible if there are at least 3 days (72 hours) until the next scheduled dose. If less than 3 days remain before the next scheduled dose, skip the missed dose and administer the next dose on the regularly scheduled day. In each case, patients can then resume their regular once weekly dosing schedule. The day of weekly administration can be changed, if necessary, as long as the last dose was administered 3 or more days before the new day of administration. 2.4 Important Administration Instructions Prior to initiation, train patients and caregivers on proper injection technique [see Instructions for Use] . Administer TRULICITY once weekly, any time of day, with or without food. Inject TRULICITY subcutaneously in the abdomen, thigh, or upper arm. Rotate injection sites with each dose. Inspect TRULICITY visually before use. It should appear clear and colorless. Do not use TRULICITY if particulate matter or coloration is seen. When using TRULICITY with insulin, administer as separate injections and never mix. It is acceptable to inject TRULICITY and insulin in the same body region, but the injections should not be adjacent to each other.",
+        "highlight": "Recommendations Regarding Missed Dose ( 2.3 ) If a dose is missed, administer the missed dose as soon as possible if there are at least 3 days (72 hours) until the next scheduled dose.",
+        "truncated": false
+      },
+      {
+        "section": "indications_and_usage",
+        "text": "1 INDICATIONS AND USAGE TRULICITY ® is indicated: As an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. To reduce the risk of major adverse cardiovascular events (cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke) in adults with type 2 diabetes mellitus who have established cardiovascular disease or multiple cardiovascular risk factors. TRULICITY ® is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated ( 1 ): As an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. To reduce the risk of major adverse cardiovascular events in adults with type 2 diabetes mellitus who have established cardiovascular disease or multiple cardiovascular risk factors. Limitations of Use: Has not been studied in patients with a history of pancreatitis. Consider other antidiabetic therapies in these patients ( 1 , 5.2 ). Not for treatment of type 1 diabetes mellitus ( 1 ). Not recommended in patients with severe gastrointestinal disease, including severe gastroparesis ( 1 , 5.6 ). Limitations of Use TRULICITY: Has not been studied in patients with a history of pancreatitis [see Warnings and Precautions ( 5.2 )] . Consider other antidiabetic therapies in patients with a history of pancreatitis. Should not be used in patients with type 1 diabetes mellitus. Has not been studied in patients with severe gastrointestinal disease, including severe gastroparesis and is therefore not recommended in these patients [see Warnings and Precautions ( 5.6 )] .",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "adverse_reactions",
+        "text": "6 ADVERSE REACTIONS The following serious reactions are described below or elsewhere in the prescribing information: Risk of Thyroid C-cell Tumors [see Warnings and Precautions ( 5.1 )] Pancreatitis [see Warnings and Precautions ( 5.2 )] Hypoglycemia with Concomitant Use of Insulin Secretagogues or Insulin [see Warnings and Precautions ( 5.3 )] Hypersensitivity Reactions [see Warnings and Precautions ( 5.4 )] Acute Kidney Injury [see Warnings and Precautions ( 5.5 )] Severe Gastrointestinal Disease [see Warnings and Precautions ( 5.6 )] Diabetic Retinopathy Complications in Patients with a History of Diabetic Retinopathy [see Warnings and Precautions ( 5.7 )] Acute Gallbladder Disease [see Warnings and Precautions ( 5.8 )] Most common adverse reactions (incidence ≥5%) are nausea, diarrhea, vomiting, abdominal pain, and decreased appetite ( 6.1 ). To report SUSPECTED ADVERSE REACTIONS, contact Eli Lilly and Company at 1-800-LillyRx (1-800-545-5979) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch . 6.1 Clinical Trials Experience Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in the clinical studies of a drug cannot be directly compared to rates in the clinical studies of another drug and may not reflect the rates observed in practice. Adverse Reactions in the Clinical Trials in Adults with Type 2 Diabetes Mellitus Pool of Adult Placebo-Controlled Trials for TRULICITY 0.75 mg and 1.5 mg Doses The data in Table 1 are derived from a pool of placebo-controlled trials and include 1,670 adult patients with type 2 diabetes mellitus exposed to TRULICITY with a mean duration of exposure of 23.8 weeks [see Clinical Studies ( 14 )] . The mean age of patients was 56 years, 1% were 75 years or older and 53% were male. The population was 69% White, 7% Black or African American, 13% Asian; 30% were of Hispanic or Latino ethnicity. At baseline, the population had diabetes for an average of 8 years, a mean HbA1c of 8.0%, and 2.5% of the population reported retinopathy. Baseline estimated renal function was normal or mildly impaired (eGFR ≥60 mL/min/1.73 m 2 ) in 96%. Table 1 shows adverse reactions, excluding hypoglycemia, occurring in ≥5% of TRULICITY treated adult patients and more commonly than placebo in a pool of placebo-controlled trials. Table 1: Adverse Reactions in Pool of Placebo-Controlled Trials That Occurred in ≥5% of TRULICITY-Treated Adult Patients with Type 2 Diabetes Mellitus a Includes diarrhea, fecal volume increased, frequent bowel movements. b Includes retching, vomiting, vomiting projectile. c Includes abdominal discomfort, abdominal pain, abdominal pain lower, abdominal pain upper, abdominal tenderness, gastrointestinal pain. d Includes fatigue, asthenia, malaise. Note: Percentages reflect the number of patients that reported at least 1 treatment-emergent occurrence of the adverse reaction. Adverse Reaction Placebo (N=568) % TRULICITY 0.75 mg (N=836) % TRULICITY 1.5 mg (N=834) % Nausea 5.3 12.4 21.1 Diarrhea a 6.7 8.9 12.6 Vomiting b 2.3 6.0 12.7 Abdominal Pain c 4.9 6.5 9.4 Decreased Appetite 1.6 4.9 8.6 Dyspepsia 2.3 4.1 5.8 Fatigue d 2.6 4.2 5.6 Gastrointestinal Adverse Reactions In the pool of placebo-controlled trials, gastrointestinal (GI) adverse reactions occurred more frequently among patients who received TRULICITY compared to patients who received placebo (placebo 21%, 0.75 mg 32%, 1.5 mg 41%). A higher percentage of patients who received TRULICITY 0.75 mg (1.3%) a …",
+        "highlight": null,
+        "truncated": true
+      }
+    ],
+    "faers_total_reports": 86770,
+    "faers_top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "report_count": 10199
+      },
+      {
+        "reaction": "INJECTION SITE PAIN",
+        "report_count": 9872
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "report_count": 9831
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "report_count": 5948
+      },
+      {
+        "reaction": "VOMITING",
+        "report_count": 5608
+      },
+      {
+        "reaction": "INCORRECT DOSE ADMINISTERED",
+        "report_count": 5535
+      },
+      {
+        "reaction": "INAPPROPRIATE SCHEDULE OF PRODUCT ADMINISTRATION",
+        "report_count": 3831
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "report_count": 3602
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "report_count": 3390
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "report_count": 3227
+      }
+    ],
+    "faers_query": "patient.drug.openfda.brand_name.exact:\"TRULICITY\"",
+    "provenance": [
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Trulicity%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-08-05",
+        "cache": "cached",
+        "record_id": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a4716d0-9c9c-4bc3-a8f1-6784599aae89",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22TRULICITY%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"TRULICITY\""
+      }
+    ]
+  },
+  "alternatives": {
+    "same_class": [
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "lixisenatide",
+        "rxcui": "1440051",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "albiglutide",
+        "rxcui": "1534763",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": "semaglutide-ozempic",
+        "brand_name": "",
+        "generic_name": "semaglutide",
+        "rxcui": "1991302",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": true,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": "liraglutide-victoza",
+        "brand_name": "",
+        "generic_name": "liraglutide",
+        "rxcui": "475968",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": true,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "exenatide",
+        "rxcui": "60548",
+        "shared_class": "Glucagon-like peptide-1 (GLP-1) analogues",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BJ"
+        }
+      }
+    ],
+    "provenance": [
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "meta": {
+    "generated_at": "2026-06-28T21:17:09.371Z",
+    "freshness": "cached",
+    "sources": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1551291/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "1551291"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=1551291",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Trulicity%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Trulicity%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-08-05",
+        "cache": "cached",
+        "record_id": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002143380&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002143380"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002318280&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002318280"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Trulicity&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_shortages",
+        "source_label": "openFDA Drug Shortages",
+        "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22dulaglutide%22",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Trulicity%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-08-05",
+        "cache": "cached",
+        "record_id": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a4716d0-9c9c-4bc3-a8f1-6784599aae89",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "0a4716d0-9c9c-4bc3-a8f1-6784599aae89"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22TRULICITY%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"TRULICITY\""
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BJ&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  }
+}

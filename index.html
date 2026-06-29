@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#fbfaf7" />
+    <script>
+      // apply the saved/system theme before paint — no flash
+      (function () {
+        try {
+          var t = localStorage.getItem('loupe-theme')
+          var dark = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)
+          if (dark) {
+            document.documentElement.classList.add('dark')
+            var m = document.querySelector('meta[name="theme-color"]')
+            if (m) m.setAttribute('content', '#15141a')
+          }
+        } catch (e) {}
+      })()
+    </script>
+    <title>loupe — appraise the real value</title>
+    <meta
+      name="description"
+      content="One canonical, sourced page per GLP-1 / cardiometabolic drug: real acquisition cost, live FDA shortage status, verbatim label facts, and same-class alternatives — from five free US-government datasets. Agent-native: deep-links, copy-as-API, and an MCP server return the same data the UI renders. Not medical advice."
+    />
+
+    <!-- agent discovery -->
+    <link rel="alternate" type="text/markdown" title="llms.txt" href="/llms.txt" />
+    <link
+      rel="alternate"
+      type="application/json"
+      title="loupe discovery manifest"
+      href="/.well-known/navigator.json"
+    />
+
+    <!-- social -->
+    <meta property="og:title" content="loupe — appraise the real value" />
+    <meta
+      property="og:description"
+      content="The real cost, live supply, and verbatim label for any GLP-1 / cardiometabolic drug — sourced, timestamped, agent-native. Not medical advice."
+    />
+    <meta property="og:type" content="website" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "loupe",
+        "alternateName": "loupe — appraise the real value",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web",
+        "description": "One canonical, sourced page per GLP-1 / cardiometabolic drug, unified from five free US-government drug-product datasets. Not medical advice; not affiliated with the FDA, NLM, or CMS.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "isBasedOn": [
+          "https://open.fda.gov/apis/drug/",
+          "https://rxnav.nlm.nih.gov/",
+          "https://data.medicaid.gov/",
+          "https://data.cms.gov/",
+          "https://dailymed.nlm.nih.gov/"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

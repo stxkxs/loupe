@@ -1,0 +1,646 @@
+{
+  "drug_id": "dapagliflozin-farxiga",
+  "identity": {
+    "brand_name": "Farxiga",
+    "generic_name": "dapagliflozin",
+    "rxcui": "1488564",
+    "manufacturer": "A-S Medication Solutions",
+    "approval_status": "approved",
+    "has_boxed_warning": false,
+    "classes": [
+      {
+        "class_id": "A10BD",
+        "class_name": "Combinations of oral blood glucose lowering drugs",
+        "class_type": "ATC1-4",
+        "rela_source": "ATC"
+      },
+      {
+        "class_id": "N0000009556",
+        "class_name": "Increased Renal Organic Ion Excretion",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000009830",
+        "class_name": "Renal Ion Transport Alteration",
+        "class_type": "PE",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000187058",
+        "class_name": "Sodium-Glucose Transporter 2 Inhibitors",
+        "class_type": "MOA",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "A10BK",
+        "class_name": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+        "class_type": "ATC1-4",
+        "rela_source": "ATCPROD"
+      },
+      {
+        "class_id": "D001559",
+        "class_name": "Benzhydryl Compounds",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "D005960",
+        "class_name": "Glucosides",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000187059",
+        "class_name": "Sodium-Glucose Cotransporter 2 Inhibitor",
+        "class_type": "EPC",
+        "rela_source": "DAILYMED"
+      }
+    ],
+    "routes": [
+      "ORAL"
+    ],
+    "strengths": [
+      "5 mg/1",
+      "10 mg/1"
+    ],
+    "provenance": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1488564/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "1488564"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=1488564",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Farxiga%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Farxiga%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-12-12",
+        "cache": "cached",
+        "record_id": "01f90c94-71cb-4a1f-81ff-8004b850529b"
+      }
+    ]
+  },
+  "cost": {
+    "points": [
+      {
+        "ndc11": "00310620530",
+        "description": "30 TABLET, FILM COATED in 1 BOTTLE, PLASTIC (0310-6205-30)",
+        "nadac_per_unit_usd": 12.07881,
+        "pricing_unit": "EA",
+        "units_per_package": 30,
+        "est_package_cost_usd": 362.36,
+        "est_monthly_cost_usd": 338.21,
+        "est_monthly_method": "est. = $12.07881/unit × 30 units/pkg × 0.93 pkg per 28 days (SPL maintenance 10 mg/1d; 1 unit ≈ 1 dose). NADAC acquisition cost, not copay.",
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310620530&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00310620530"
+        }
+      },
+      {
+        "ndc11": "00310620590",
+        "description": "90 TABLET, FILM COATED in 1 BOTTLE, PLASTIC (0310-6205-90)",
+        "nadac_per_unit_usd": 12.07881,
+        "pricing_unit": "EA",
+        "units_per_package": 90,
+        "est_package_cost_usd": 1087.09,
+        "est_monthly_cost_usd": 338.21,
+        "est_monthly_method": "est. = $12.07881/unit × 90 units/pkg × 0.31 pkg per 28 days (SPL maintenance 10 mg/1d; 1 unit ≈ 1 dose). NADAC acquisition cost, not copay.",
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310620590&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00310620590"
+        }
+      },
+      {
+        "ndc11": "00310621030",
+        "description": "30 TABLET, FILM COATED in 1 BOTTLE, PLASTIC (0310-6210-30)",
+        "nadac_per_unit_usd": 12.08155,
+        "pricing_unit": "EA",
+        "units_per_package": 30,
+        "est_package_cost_usd": 362.45,
+        "est_monthly_cost_usd": 338.28,
+        "est_monthly_method": "est. = $12.08155/unit × 30 units/pkg × 0.93 pkg per 28 days (SPL maintenance 10 mg/1d; 1 unit ≈ 1 dose). NADAC acquisition cost, not copay.",
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621030&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00310621030"
+        }
+      },
+      {
+        "ndc11": "00310621039",
+        "description": "3 BLISTER PACK in 1 CARTON (0310-6210-39)  / 10 TABLET, FILM COATED in 1 BLISTER PACK",
+        "nadac_per_unit_usd": 12.08155,
+        "pricing_unit": "EA",
+        "units_per_package": 3,
+        "est_package_cost_usd": 36.24,
+        "est_monthly_cost_usd": 338.28,
+        "est_monthly_method": "est. = $12.08155/unit × 3 units/pkg × 9.33 pkg per 28 days (SPL maintenance 10 mg/1d; 1 unit ≈ 1 dose). NADAC acquisition cost, not copay.",
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621039&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00310621039"
+        }
+      },
+      {
+        "ndc11": "00310621090",
+        "description": "90 TABLET, FILM COATED in 1 BOTTLE, PLASTIC (0310-6210-90)",
+        "nadac_per_unit_usd": 12.08155,
+        "pricing_unit": "EA",
+        "units_per_package": 90,
+        "est_package_cost_usd": 1087.34,
+        "est_monthly_cost_usd": 338.28,
+        "est_monthly_method": "est. = $12.08155/unit × 90 units/pkg × 0.31 pkg per 28 days (SPL maintenance 10 mg/1d; 1 unit ≈ 1 dose). NADAC acquisition cost, not copay.",
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621090&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00310621090"
+        }
+      }
+    ],
+    "package_low_usd": 36.24,
+    "package_high_usd": 1087.34,
+    "medicare_context": {
+      "total_spending_usd": 5290548963.4,
+      "total_claims": 5634650,
+      "avg_spend_per_claim_usd": 938.93124922,
+      "year": 2024,
+      "provenance": {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Farxiga&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    },
+    "coverage_note": null,
+    "provenance": [
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310620530&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310620530"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310620590&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310620590"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621030&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310621030"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621039&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310621039"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621090&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310621090"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Farxiga&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "shortage": {
+    "status": "available",
+    "reason": null,
+    "resupply_estimate": null,
+    "presentations_affected": [],
+    "initial_posting_date": null,
+    "update_date": null,
+    "provenance": {
+      "source": "openfda_shortages",
+      "source_label": "openFDA Drug Shortages",
+      "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22dapagliflozin%22",
+      "retrieved_at": "2026-06-28T21:17:09.371Z",
+      "as_of": null,
+      "cache": "cached",
+      "record_id": null
+    }
+  },
+  "label": {
+    "setid": "01f90c94-71cb-4a1f-81ff-8004b850529b",
+    "spl_version": null,
+    "effective_time": "2023-12-12",
+    "dailymed_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b",
+    "quotes": [
+      {
+        "section": "dosage_and_administration",
+        "text": "2 DOSAGE AND ADMINISTRATION • Assess volume status and correct volume depletion before initiating. (2.1) eGFR (mL/min/1.73 m 2 ) Recommended Dose eGFR 45 or greater To improve glycemic control, the recommended starting dose is 5 mg orally once daily. Dose can be increased to 10 mg orally once daily for additional glycemic control. For all other indications, the recommended starting dose is 10 mg orally once daily. eGFR 25 to less than 45 10 mg orally once daily eGFR less than 25 Initiation is not recommended; however, patients may continue 10 mg orally once daily to reduce the risk of eGFR decline, ESKD, CV death and hHF. • Withhold FARXIGA for at least 3 days, if possible, prior to major surgery or procedures associated with prolonged fasting. (2.3) 2.1 Prior to Initiation of FARXIGA Assess renal function prior to initiation of FARXIGA therapy and then as clinically indicated [see Warnings and Precautions (5.2) ]. Assess volume status. In patients with volume depletion, correct this condition before initiating FARXIGA [see Warnings and Precautions (5.2) and Use in Specific Populations (8.5 , 8.6) ] . 2.2 Recommended Dosage See Table 1 for dosage recommendations based on estimated glomerular filtration rate (eGFR). Table 1: Recommended Dosage eGFR (mL/min/1.73 m 2 ) Recommended Dose eGFR 45 or greater To improve glycemic control, the recommended starting dose is 5 mg orally once daily. Dose can be increased to 10 mg orally once daily for additional glycemic control FARXIGA is not recommended for use to improve glycemic control in adults with type 2 diabetes mellitus with an eGFR less than 45 mL/min/1.73 m 2 . FARXIGA is likely to be ineffective in this setting based upon its mechanism of action. . For all other indications, the recommended starting dose is 10 mg orally once daily. eGFR 25 to less than 45 10 mg orally once daily . eGFR less than 25 Initiation is not recommended; however, patients may continue 10 mg orally once daily to reduce the risk of eGFR decline, ESKD, CV death and hHF. hHF: hospitalization for heart failure, CV: Cardiovascular, ESKD: End Stage Kidney Disease 2.3 Temporary Interruption for Surgery Withhold FARXIGA for at least 3 days, if possible, prior to major surgery or procedures associated with prolonged fasting. Resume FARXIGA when the patient is clinically stable and has resumed oral intake [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.2) ] .",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "indications_and_usage",
+        "text": "1 INDICATIONS AND USAGE FARXIGA (dapagliflozin) is indicated: • To reduce the risk of sustained eGFR decline, end-stage kidney disease, cardiovascular death, and hospitalization for heart failure in adults with chronic kidney disease at risk of progression. • To reduce the risk of cardiovascular death, hospitalization for heart failure, and urgent heart failure visit in adults with heart failure. • To reduce the risk of hospitalization for heart failure in adults with type 2 diabetes mellitus and either established cardiovascular disease or multiple cardiovascular risk factors. • As an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use • FARXIGA is not recommended for use to improve glycemic control in patients with type 1 diabetes mellitus [see Warnings and Precautions (5.1) ] . • FARXIGA is not recommended for use to improve glycemic control in adults with type 2 diabetes mellitus with an eGFR less than 45 mL/min/1.73 m 2 . FARXIGA is likely to be ineffective in this setting based upon its mechanism of action. • FARXIGA is not recommended for the treatment of chronic kidney disease in patients with polycystic kidney disease or patients requiring or with a recent history of immunosuppressive therapy for kidney disease. FARXIGA is not expected to be effective in these populations. FARXIGA is a sodium-glucose cotransporter 2 (SGLT2) inhibitor indicated: • To reduce the risk of sustained eGFR decline, end-stage kidney disease, cardiovascular death, and hospitalization for heart failure in adults with chronic kidney disease at risk of progression. (1) • To reduce the risk of cardiovascular death, hospitalization for heart failure, and urgent heart failure visit in adults with heart failure. (1) • To reduce the risk of hospitalization for heart failure in adults with type 2 diabetes mellitus and either established cardiovascular disease or multiple cardiovascular risk factors. (1) • As an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. (1) Limitations of use: • Not recommended for use to improve glycemic control in patients with type 1 diabetes mellitus. (1) • Not recommended for use to improve glycemic control in adults with type 2 diabetes mellitus with an eGFR less than 45 mL/min/1.73 m 2 . FARXIGA is likely to be ineffective in this setting based upon its mechanism of action. (1) • Not recommended for the treatment of chronic kidney disease in patients with polycystic kidney disease or patients requiring or with a recent history of immunosuppressive therapy for the treatment of kidney disease. FARXIGA is not expected to be effective in these populations. (1)",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "adverse_reactions",
+        "text": "6 ADVERSE REACTIONS The following important adverse reactions are described below and elsewhere in the labeling: • Diabetic Ketoacidosis in Patients with Type 1 Diabetes Mellitus and Other Ketoacidosis [see Warnings and Precautions (5.1) ] • Volume Depletion [see Warnings and Precautions (5.2) ] • Urosepsis and Pyelonephritis [see Warnings and Precautions (5.3) ] • Hypoglycemia with Concomitant Use with Insulin and Insulin Secretagogues [see Warnings and Precautions (5.4) ] • Necrotizing Fasciitis of the Perineum (Fournier’s Gangrene) [see Warnings and Precautions (5.5) ] • Genital Mycotic Infections [see Warnings and Precautions (5.6) ] • Most common adverse reactions (5% or greater incidence) were female genital mycotic infections, nasopharyngitis, and urinary tract infections. (6.1) To report SUSPECTED ADVERSE REACTIONS, contact AstraZeneca at 1-800-236-9933 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. FARXIGA has been evaluated in clinical trials in patients with type 2 diabetes mellitus, in patients with heart failure, and in patients with chronic kidney disease. The overall safety profile of FARXIGA was consistent across the studied indications. Severe hypoglycemia and diabetic ketoacidosis (DKA) were observed only in patients with diabetes mellitus. Clinical Trials in Patients with Type 2 Diabetes Mellitus Pool of 12 Placebo-Controlled Studies for FARXIGA 5 and 10 mg for Glycemic Control The data in Table 2 is derived from 12 glycemic control placebo-controlled studies in patients with type 2 diabetes mellitus ranging from 12 to 24 weeks. In 4 studies FARXIGA was used as monotherapy, and in 8 studies FARXIGA was used as add-on to background antidiabetic therapy or as combination therapy with metformin [see Clinical Studies (14.1) ]. These data reflect exposure of 2338 patients to FARXIGA with a mean exposure duration of 21 weeks. Patients received placebo (N=1393), FARXIGA 5 mg (N=1145), or FARXIGA 10 mg (N=1193) once daily. The mean age of the population was 55 years and 2% were older than 75 years of age. Fifty percent (50%) of the population were male; 81% were White, 14% were Asian, and 3% were Black or African American. At baseline, the population had diabetes for an average of 6 years, had a mean hemoglobin A1c (HbA1c) of 8.3%, and 21% had established microvascular complications of diabetes. Baseline renal function was normal or mildly impaired in 92% of patients and moderately impaired in 8% of patients (mean eGFR 86 mL/min/1.73 m 2 ). Table 2 shows common adverse reactions associated with the use of FARXIGA. These adverse reactions were not present at baseline, occurred more commonly on FARXIGA than on placebo, and occurred in at least 2% of patients treated with either FARXIGA 5 mg or FARXIGA 10 mg. Table 2: Adverse Reactions in Placebo-Controlled Studies of Glycemic Control Reported in ≥2% of Patients Treated with FARXIGA Adverse Reaction % of Patients Pool of 12 Placebo-Controlled Studies Placebo N=1393 FARXIGA 5 mg N=1145 FARXIGA 10 mg N=1193 Female genital mycotic infections Genital mycotic infections include the following adverse reactions, listed in order of frequency reported for females: vulvovaginal mycotic i …",
+        "highlight": null,
+        "truncated": true
+      }
+    ],
+    "faers_total_reports": 53579,
+    "faers_top_reactions": [
+      {
+        "reaction": "DEATH",
+        "report_count": 7496
+      },
+      {
+        "reaction": "FATIGUE",
+        "report_count": 2383
+      },
+      {
+        "reaction": "NAUSEA",
+        "report_count": 2344
+      },
+      {
+        "reaction": "DIZZINESS",
+        "report_count": 2206
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "report_count": 2191
+      },
+      {
+        "reaction": "DYSPNOEA",
+        "report_count": 2066
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "report_count": 1903
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "report_count": 1902
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "report_count": 1862
+      },
+      {
+        "reaction": "ACUTE KIDNEY INJURY",
+        "report_count": 1787
+      }
+    ],
+    "faers_query": "patient.drug.openfda.brand_name.exact:\"FARXIGA\"",
+    "provenance": [
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Farxiga%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-12-12",
+        "cache": "cached",
+        "record_id": "01f90c94-71cb-4a1f-81ff-8004b850529b"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "01f90c94-71cb-4a1f-81ff-8004b850529b"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22FARXIGA%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"FARXIGA\""
+      }
+    ]
+  },
+  "alternatives": {
+    "same_class": [
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "canagliflozin",
+        "rxcui": "1373458",
+        "shared_class": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BK"
+        }
+      },
+      {
+        "drug_id": "empagliflozin-jardiance",
+        "brand_name": "",
+        "generic_name": "empagliflozin",
+        "rxcui": "1545653",
+        "shared_class": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+        "shared_class_type": "ATC1-4",
+        "in_registry": true,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BK"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "ertugliflozin",
+        "rxcui": "1992672",
+        "shared_class": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BK"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "bexagliflozin",
+        "rxcui": "2627044",
+        "shared_class": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BK"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "sotagliflozin",
+        "rxcui": "2638675",
+        "shared_class": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BK"
+        }
+      }
+    ],
+    "provenance": [
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "meta": {
+    "generated_at": "2026-06-28T21:17:09.371Z",
+    "freshness": "cached",
+    "sources": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1488564/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "1488564"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=1488564",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Farxiga%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Farxiga%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-12-12",
+        "cache": "cached",
+        "record_id": "01f90c94-71cb-4a1f-81ff-8004b850529b"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310620530&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310620530"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310620590&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310620590"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621030&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310621030"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621039&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310621039"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00310621090&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00310621090"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Farxiga&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_shortages",
+        "source_label": "openFDA Drug Shortages",
+        "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22dapagliflozin%22",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Farxiga%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2023-12-12",
+        "cache": "cached",
+        "record_id": "01f90c94-71cb-4a1f-81ff-8004b850529b"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "01f90c94-71cb-4a1f-81ff-8004b850529b"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22FARXIGA%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"FARXIGA\""
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BK&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  }
+}

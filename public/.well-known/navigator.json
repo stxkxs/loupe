@@ -1,0 +1,52 @@
+{
+  "name": "loupe",
+  "tagline": "appraise the real value",
+  "description": "One canonical, sourced page per GLP-1 / cardiometabolic drug — real acquisition cost, live FDA shortage status, verbatim label facts, and same-class alternatives. Agent-native.",
+  "disclaimer": "Not medical advice. loupe is not affiliated with the FDA, NLM, or CMS. Drug-PRODUCT reference data only — zero PHI.",
+  "deep_link_grammar": "/?drug=<slug>&view=identity|cost|supply|label|alternatives",
+  "provenance": "Every datum carries {source, source_url, as_of, cache}; cache=cached means from the build-time snapshot.",
+  "guardrails": [
+    "Cost ≠ copay (NADAC is acquisition cost, not patient out-of-pocket).",
+    "FAERS counts are spontaneous reports, not incidence rates.",
+    "Label text is quoted verbatim with source + as-of date.",
+    "Same-class alternatives are informational and clinician-gated."
+  ],
+  "api": { "base": "/v1", "keyless": true, "openapi": "/openapi.json", "docs": "/docs" },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      "get_drug",
+      "list_drugs",
+      "search_drugs",
+      "get_drug_cost",
+      "get_drug_shortage",
+      "get_drug_label",
+      "get_drug_alternatives"
+    ]
+  },
+  "sources": [
+    "openFDA Drug Label (SPL)",
+    "openFDA Drug Shortages",
+    "openFDA Adverse Events (FAERS)",
+    "openFDA NDC Directory",
+    "NLM RxNorm",
+    "NLM RxClass",
+    "CMS NADAC",
+    "CMS Medicare Part D Spending by Drug",
+    "NLM DailyMed"
+  ],
+  "drugs": [
+    "semaglutide-ozempic",
+    "semaglutide-wegovy",
+    "semaglutide-rybelsus",
+    "tirzepatide-mounjaro",
+    "tirzepatide-zepbound",
+    "dulaglutide-trulicity",
+    "liraglutide-victoza",
+    "liraglutide-saxenda",
+    "empagliflozin-jardiance",
+    "dapagliflozin-farxiga",
+    "metformin",
+    "atorvastatin"
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "drug_id": "tirzepatide-mounjaro",
+  "identity": {
+    "brand_name": "Mounjaro",
+    "generic_name": "tirzepatide",
+    "rxcui": "2601723",
+    "manufacturer": "Eli Lilly and Company",
+    "approval_status": "approved",
+    "has_boxed_warning": true,
+    "classes": [
+      {
+        "class_id": "A10BX",
+        "class_name": "Other blood glucose lowering drugs, excl. insulins",
+        "class_type": "ATC1-4",
+        "rela_source": "ATC"
+      },
+      {
+        "class_id": "D000098860",
+        "class_name": "Tirzepatide",
+        "class_type": "CHEM",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000000152",
+        "class_name": "G-Protein-linked Receptor Interactions",
+        "class_type": "MOA",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "N0000020057",
+        "class_name": "Glucagon-like Peptide-1 (GLP-1) Receptor Interactions",
+        "class_type": "MOA",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000020058",
+        "class_name": "Glucagon-like Peptide-1 (GLP-1) Agonists",
+        "class_type": "MOA",
+        "rela_source": "MEDRT"
+      },
+      {
+        "class_id": "N0000178480",
+        "class_name": "GLP-1 Receptor Agonist",
+        "class_type": "EPC",
+        "rela_source": "FDASPL"
+      },
+      {
+        "class_id": "N0000194015",
+        "class_name": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
+        "class_type": "EPC",
+        "rela_source": "FDASPL"
+      }
+    ],
+    "routes": [
+      "SUBCUTANEOUS"
+    ],
+    "strengths": [
+      "8.33 mg/mL",
+      "12.5 mg/.5mL",
+      "5 mg/.5mL",
+      "10 mg/.5mL",
+      "20.8 mg/mL",
+      "25 mg/mL",
+      "12.5 mg/mL",
+      "2.5 mg/.5mL",
+      "7.5 mg/.5mL",
+      "15 mg/.5mL",
+      "4.17 mg/mL",
+      "16.7 mg/mL"
+    ],
+    "provenance": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2601723/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "2601723"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=2601723",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Mounjaro%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Mounjaro%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-04-22",
+        "cache": "cached",
+        "record_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+      }
+    ]
+  },
+  "cost": {
+    "points": [
+      {
+        "ndc11": "00002146080",
+        "description": "4 SYRINGE in 1 CARTON (0002-1460-80)  / .5 mL in 1 SYRINGE (0002-1460-01)",
+        "nadac_per_unit_usd": 538.47911,
+        "pricing_unit": "ML",
+        "units_per_package": 4,
+        "est_package_cost_usd": 2153.92,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002146080&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00002146080"
+        }
+      },
+      {
+        "ndc11": "00002149580",
+        "description": "4 SYRINGE in 1 CARTON (0002-1495-80)  / .5 mL in 1 SYRINGE (0002-1495-01)",
+        "nadac_per_unit_usd": 538.63269,
+        "pricing_unit": "ML",
+        "units_per_package": 4,
+        "est_package_cost_usd": 2154.53,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002149580&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00002149580"
+        }
+      },
+      {
+        "ndc11": "00002147180",
+        "description": "4 SYRINGE in 1 CARTON (0002-1471-80)  / .5 mL in 1 SYRINGE (0002-1471-01)",
+        "nadac_per_unit_usd": 538.6165,
+        "pricing_unit": "ML",
+        "units_per_package": 4,
+        "est_package_cost_usd": 2154.47,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002147180&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00002147180"
+        }
+      },
+      {
+        "ndc11": "00002150680",
+        "description": "4 SYRINGE in 1 CARTON (0002-1506-80)  / .5 mL in 1 SYRINGE (0002-1506-01)",
+        "nadac_per_unit_usd": 538.66863,
+        "pricing_unit": "ML",
+        "units_per_package": 4,
+        "est_package_cost_usd": 2154.67,
+        "est_monthly_cost_usd": null,
+        "est_monthly_method": null,
+        "effective_date": "2026-06-17",
+        "provenance": {
+          "source": "nadac",
+          "source_label": "CMS NADAC (acquisition cost)",
+          "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002150680&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": "2026-06-17",
+          "cache": "cached",
+          "record_id": "00002150680"
+        }
+      }
+    ],
+    "package_low_usd": 2153.92,
+    "package_high_usd": 2154.67,
+    "medicare_context": {
+      "total_spending_usd": 6336942640.7,
+      "total_claims": 5105397,
+      "avg_spend_per_claim_usd": 1241.2242654,
+      "year": 2024,
+      "provenance": {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Mounjaro&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    },
+    "coverage_note": null,
+    "provenance": [
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002146080&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002146080"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002149580&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002149580"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002147180&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002147180"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002150680&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002150680"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Mounjaro&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "shortage": {
+    "status": "available",
+    "reason": null,
+    "resupply_estimate": null,
+    "presentations_affected": [],
+    "initial_posting_date": null,
+    "update_date": null,
+    "provenance": {
+      "source": "openfda_shortages",
+      "source_label": "openFDA Drug Shortages",
+      "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22tirzepatide%22",
+      "retrieved_at": "2026-06-28T21:17:09.371Z",
+      "as_of": null,
+      "cache": "cached",
+      "record_id": null
+    }
+  },
+  "label": {
+    "setid": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+    "spl_version": null,
+    "effective_time": "2026-04-22",
+    "dailymed_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+    "quotes": [
+      {
+        "section": "boxed_warning",
+        "text": "WARNING: RISK OF THYROID C-CELL TUMORS In both male and female rats, tirzepatide causes dose-dependent and treatment-duration-dependent thyroid C-cell tumors at clinically relevant exposures. It is unknown whether MOUNJARO causes thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as human relevance of tirzepatide-induced rodent thyroid C-cell tumors has not been determined [see Warnings and Precautions ( 5.1 ) and Nonclinical Toxicology ( 13.1 )]. MOUNJARO is contraindicated in patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2) [see Contraindications ( 4 )] . Counsel patients regarding the potential risk for MTC with the use of MOUNJARO and inform them of symptoms of thyroid tumors (e.g., a mass in the neck, dysphagia, dyspnea, persistent hoarseness). Routine monitoring of serum calcitonin or using thyroid ultrasound is of uncertain value for early detection of MTC in patients treated with MOUNJARO [see Contraindications ( 4 ) and Warnings and Precautions ( 5.1 )]. WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning. Tirzepatide causes thyroid C-cell tumors in rats. It is unknown whether MOUNJARO causes thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as the human relevance of tirzepatide-induced rodent thyroid C-cell tumors has not been determined ( 5.1 , 13.1 ). MOUNJARO is contraindicated in patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Counsel patients regarding the potential risk of MTC and symptoms of thyroid tumors ( 4 , 5.1 ).",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "dosage_and_administration",
+        "text": "2 DOSAGE AND ADMINISTRATION The recommended starting dosage is 2.5 mg injected subcutaneously once weekly. ( 2.1 ) After 4 weeks, increase to 5 mg injected subcutaneously once weekly. ( 2.1 ) If additional glycemic control is needed, increase the dosage in 2.5 mg increments after at least 4 weeks on the current dose. ( 2.1 ) Maximum dosage ( 2.1 ): Adults: 15 mg subcutaneously once weekly. Pediatric patients 10 years of age and older: 10 mg subcutaneously once weekly. Administer once weekly at any time of day, with or without meals. ( 2.2 ) Inject subcutaneously in the abdomen, thigh, or another person should inject in the back of the upper arm. Rotate injection sites with each dose. ( 2.2 ) Refer to the Full Prescribing Information for additional important administration instructions about MOUNJARO presentations. ( 2.2 ) 2.1 Recommended Dosage The recommended starting dosage of MOUNJARO is 2.5 mg injected subcutaneously once weekly [see Dosage and Administration ( 2.2 )] . Follow the dosage escalation below to reduce the risk of gastrointestinal adverse reactions [see Warnings and Precautions ( 5.6 ) and Adverse Reactions ( 6.1 )] . The 2.5 mg dosage is for treatment initiation and is not intended for glycemic control. After 4 weeks, increase the dosage to 5 mg injected subcutaneously once weekly. If additional glycemic control is needed, increase the dosage in 2.5 mg increments after at least 4 weeks on the current dose. The maximum dosage of MOUNJARO is: 15 mg injected subcutaneously once weekly in adults. 10 mg injected subcutaneously once weekly in pediatric patients. If a dose is missed, instruct patients to administer MOUNJARO as soon as possible within 4 days (96 hours) after the missed dose. If more than 4 days have passed, skip the missed dose and administer the next dose on the regularly scheduled day. In each case, patients can then resume their regular once weekly dosing schedule. The day of weekly administration can be changed, if necessary, as long as the time between the two doses is at least 3 days (72 hours). 2.2 Important Administration Instructions Inform patients and their caregiver(s) which MOUNJARO presentation (e.g., vial, pre-filled single-dose pen, single-patient-use KwikPen) they will receive and ensure they receive training appropriate for that specific presentation. If the prescribed MOUNJARO presentation changes, ensure patients and caregivers receive appropriate training and instruct them to consult the Instructions for Use for the newly prescribed presentation. Prior to initiation, train patients and their caregiver(s) on proper injection technique for the prescribed MOUNJARO presentation [see Instructions for Use] . After training, a patient may self-inject MOUNJARO if the healthcare provider determines that it can be properly administered, except for the following: MOUNJARO KwikPen is not recommended for self-administration by pediatric patients. MOUNJARO KwikPen is not recommended for self-administration by those who are visually impaired. Instruct patients using MOUNJARO vials to use a syringe appropriate for dose administration (e.g., a 1 mL syringe capable of measuring a 0.5 mL or 0.6 mL dose) and always use a new syringe and needle for each injection. Administer MOUNJARO once weekly, any time of day, with or without meals. Inject MOUNJARO subcutaneously in the abdomen, thigh, or another person should inject in the back of the upper arm. Rotate injection sites with each dose. Inspect MOUNJARO visual …",
+        "highlight": "If a dose is missed, instruct patients to administer MOUNJARO as soon as possible within 4 days (96 hours) after the missed dose.",
+        "truncated": true
+      },
+      {
+        "section": "indications_and_usage",
+        "text": "1 INDICATIONS AND USAGE MOUNJARO ® is indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. MOUNJARO ® is a glucose-dependent insulinotropic polypeptide (GIP) receptor and glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. ( 1 )",
+        "highlight": null,
+        "truncated": false
+      },
+      {
+        "section": "adverse_reactions",
+        "text": "6 ADVERSE REACTIONS The following serious adverse reactions are described below or elsewhere in the prescribing information: Risk of Thyroid C-cell Tumors [see Warnings and Precautions ( 5.1 )] Acute Pancreatitis [see Warnings and Precautions ( 5.2 )] Hypoglycemia with Concomitant Use of Insulin Secretagogues or Insulin [see Warnings and Precautions ( 5.3 )] Hypersensitivity Reactions [see Warnings and Precautions ( 5.4 )] Acute Kidney Injury Due to Volume Depletion [see Warnings and Precautions ( 5.5 )] Severe Gastrointestinal Adverse Reactions [see Warnings and Precautions ( 5.6 )] Diabetic Retinopathy Complications in Patients with a History of Diabetic Retinopathy [see Warnings and Precautions ( 5.7 )] Acute Gallbladder Disease [see Warnings and Precautions ( 5.8 )] Pulmonary Aspiration During General Anesthesia or Deep Sedation [see Warnings and Precautions ( 5.9 )] The most common adverse reactions, reported in ≥5% of patients treated with MOUNJARO are nausea, diarrhea, decreased appetite, vomiting, constipation, dyspepsia, and abdominal pain. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Eli Lilly and Company at 1-800-LillyRx (1-800-545-5979) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. Adverse Reactions in the Clinical Trials of Adults with Type 2 Diabetes Mellitus Pool of Two Placebo-Controlled Clinical Trials in Adults The data in Table 1 are derived from 2 placebo-controlled trials [1 monotherapy trial (SURPASS-1) and 1 trial in combination with basal insulin with or without metformin (SURPASS-5)] in adult patients with type 2 diabetes mellitus [see Clinical Studies ( 14.2 , 14.4 )] . These data reflect exposure of 718 patients to MOUNJARO and a mean duration of exposure to MOUNJARO of 36.6 weeks. The mean age of patients was 58 years, 4% were 75 years or older and 54% were male. The population was 57% White, 27% Asian, 13% American Indian or Alaska Native, and 3% Black or African American; 25% identified as Hispanic or Latino ethnicity. At baseline, patients had type 2 diabetes mellitus for an average of 9.1 years with a mean HbA1c of 8.1%. As assessed by baseline fundoscopic examination, 13% of the population had retinopathy. At baseline, eGFR was ≥90 mL/min/1.73 m 2 in 53%, 60 to 90 mL/min/1.73 m 2 in 39%, 45 to 60 mL/min/1.73 m 2 in 7%, and 30 to 45 mL/min/1.73 m 2 in 1% of patients. Pool of Seven Controlled Clinical Trials Adverse reactions were also evaluated in a larger pool of adult patients with type 2 diabetes mellitus participating in seven controlled clinical trials which included two placebo-controlled trials (SURPASS-1 and -5), three trials of MOUNJARO in combination with metformin, sulfonylureas, and/or SGLT2 Inhibitors (SURPASS-2, -3, -4) [see Clinical Studies ( 14.3 )] and two additional trials conducted in Japan. In this pool, a total of 5119 adult patients with type 2 diabetes mellitus were treated with MOUNJARO for a mean duration of 48.1 weeks. The mean age of patients was 58 years, 4% were 75 years or older and 58% were male. The population was 65% White, 24% Asian, 7% American Indian or Alaska Native, and 3% Black or African American; 38% identified as Hispanic or Latino ethnicity. At baseline, patie …",
+        "highlight": null,
+        "truncated": true
+      }
+    ],
+    "faers_total_reports": 87220,
+    "faers_top_reactions": [
+      {
+        "reaction": "INCORRECT DOSE ADMINISTERED",
+        "report_count": 16761
+      },
+      {
+        "reaction": "NAUSEA",
+        "report_count": 8946
+      },
+      {
+        "reaction": "INJECTION SITE PAIN",
+        "report_count": 8917
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "report_count": 7479
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "report_count": 5387
+      },
+      {
+        "reaction": "EXTRA DOSE ADMINISTERED",
+        "report_count": 5015
+      },
+      {
+        "reaction": "VOMITING",
+        "report_count": 4629
+      },
+      {
+        "reaction": "INJECTION SITE HAEMORRHAGE",
+        "report_count": 3464
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "report_count": 3302
+      },
+      {
+        "reaction": "INJECTION SITE ERYTHEMA",
+        "report_count": 2968
+      }
+    ],
+    "faers_query": "patient.drug.openfda.brand_name.exact:\"MOUNJARO\"",
+    "provenance": [
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Mounjaro%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-04-22",
+        "cache": "cached",
+        "record_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22MOUNJARO%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"MOUNJARO\""
+      }
+    ]
+  },
+  "alternatives": {
+    "same_class": [
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "pramlintide",
+        "rxcui": "139953",
+        "shared_class": "Other blood glucose lowering drugs, excl. insulins",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BX"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "benfluorex",
+        "rxcui": "18880",
+        "shared_class": "Other blood glucose lowering drugs, excl. insulins",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BX"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "guar gum",
+        "rxcui": "26344",
+        "shared_class": "Other blood glucose lowering drugs, excl. insulins",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BX"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "nateglinide",
+        "rxcui": "274332",
+        "shared_class": "Other blood glucose lowering drugs, excl. insulins",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BX"
+        }
+      },
+      {
+        "drug_id": null,
+        "brand_name": "",
+        "generic_name": "repaglinide",
+        "rxcui": "73044",
+        "shared_class": "Other blood glucose lowering drugs, excl. insulins",
+        "shared_class_type": "ATC1-4",
+        "in_registry": false,
+        "provenance": {
+          "source": "rxclass",
+          "source_label": "NLM RxClass",
+          "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+          "retrieved_at": "2026-06-28T21:17:09.371Z",
+          "as_of": null,
+          "cache": "cached",
+          "record_id": "A10BX"
+        }
+      }
+    ],
+    "provenance": [
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  },
+  "meta": {
+    "generated_at": "2026-06-28T21:17:09.371Z",
+    "freshness": "cached",
+    "sources": [
+      {
+        "source": "rxnorm",
+        "source_label": "NLM RxNorm (RxNav)",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2601723/properties.json",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "2601723"
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=2601723",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_ndc",
+        "source_label": "openFDA NDC Directory",
+        "source_url": "https://api.fda.gov/drug/ndc.json?search=brand_name:%22Mounjaro%22&limit=50",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Mounjaro%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-04-22",
+        "cache": "cached",
+        "record_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002146080&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002146080"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002149580&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002149580"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002147180&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002147180"
+      },
+      {
+        "source": "nadac",
+        "source_label": "CMS NADAC (acquisition cost)",
+        "source_url": "https://data.medicaid.gov/api/1/datastore/query/fbb83258-11c7-47f5-8b18-5f8e79f7e704/0?conditions%5B0%5D%5Bproperty%5D=ndc&conditions%5B0%5D%5Bvalue%5D=00002150680&conditions%5B0%5D%5Boperator%5D=%3D&sorts%5B0%5D%5Bproperty%5D=effective_date&sorts%5B0%5D%5Border%5D=desc&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-06-17",
+        "cache": "cached",
+        "record_id": "00002150680"
+      },
+      {
+        "source": "medicare_partd",
+        "source_label": "CMS Medicare Part D Spending by Drug",
+        "source_url": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?filter%5BBrnd_Name%5D=Mounjaro&size=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_shortages",
+        "source_label": "openFDA Drug Shortages",
+        "source_url": "https://api.fda.gov/drug/shortages.json?search=openfda.generic_name:%22tirzepatide%22",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      },
+      {
+        "source": "openfda_label",
+        "source_label": "openFDA Drug Label (SPL)",
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22Mounjaro%22&limit=1",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": "2026-04-22",
+        "cache": "cached",
+        "record_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+      },
+      {
+        "source": "dailymed",
+        "source_label": "NLM DailyMed (SPL)",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+      },
+      {
+        "source": "openfda_faers",
+        "source_label": "openFDA Adverse Events (FAERS)",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name.exact%3A%22MOUNJARO%22&count=patient.reaction.reactionmeddrapt.exact&limit=10",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": "patient.drug.openfda.brand_name.exact:\"MOUNJARO\""
+      },
+      {
+        "source": "rxclass",
+        "source_label": "NLM RxClass",
+        "source_url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BX&relaSource=ATC&ttys=IN",
+        "retrieved_at": "2026-06-28T21:17:09.371Z",
+        "as_of": null,
+        "cache": "cached",
+        "record_id": null
+      }
+    ]
+  }
+}
